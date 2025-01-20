@@ -1,0 +1,7 @@
+@import 'tailwindcss';
+@tailwind utilities;
+
+@theme {
+  --font-sans: 'Public Sans', sans-serif;
+  --font-pixelify: Pixelify Sans;
+}
