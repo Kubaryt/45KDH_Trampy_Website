@@ -15,6 +15,10 @@ export default defineNuxtConfig({
       standalone: false,
     },
   },
+  colorMode: {
+    preference: 'dark',
+    storageKey: 'nuxt-color-mode-forced',
+  },
   fonts: {
     experimental: {
       processCSSVariables: true,

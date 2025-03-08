@@ -24,10 +24,10 @@ const items = [
 </script>
 
 <template>
-  <div class="w-full h-[12vh] z-[1]">
-    <div class="w-full bg-black border-b-1 border-b-gray-600 flex justify-between items-center px-5 h-full">
-      <NuxtLink class="flex justify-start items-center gap-5" to="/">
-        <img alt="logo Trampów" src="assets/img/logo.png" class="h-[7vh] w-[7vh] rounded-full">
+  <div class="w-full h-15 z-[1]">
+    <div class="w-full bg-black border-b-1 border-b-gray-600 flex justify-between items-center px-10 h-full">
+      <NuxtLink class="flex justify-start items-center gap-3 -ml-3" to="/">
+        <img alt="logo Trampów" src="assets/img/logo.png" class="h-11 w-11 rounded-full">
         <p class="font-bold text-lg">
           45 KDH Trampy
         </p>

@@ -22,15 +22,17 @@ const paragraphs = [
         </h2>
       </div>
     </div>
-    <div class="flex flex-col mt-5 mx-10 gap-5">
-      <Paragraph v-for="paragraph in paragraphs" :key="paragraph.title" :title="paragraph.title" :content="paragraph.content"/>
-      <div class="flex flex-col items-center gap-5 mt-5">
-        <h3 class="text-2xl w-full rounded-md bg-gray-600/10 text-center p-5 text-cyan-600 font-bold">
+    <div class="flex flex-col mt-5 px-10 gap-5">
+      <Paragraph v-for="paragraph in paragraphs" :key="paragraph.title" :title="paragraph.title" :content="paragraph.content" />
+      <div class="flex flex-col mx-auto w-[70%] items-center gap-5 mt-5 bg-gray-600/15 p-5">
+        <h3 class="text-2xl rounded-md text-center p-5 text-cyan-400 font-bold">
           Kto prowadzi drużyne
         </h3>
         <div class="flex flex-col items-center">
           <img class="h-90 w-60 rounded-md" alt="Drużynowy Adam Szwancyber razem z opiekunem drużyny Maksem Gosztyłą" src="assets/img/maks_adam.png">
-          <p class="text-xs text-gray-600 w-50 mt-2">Drużynowy ćw. Adam Szwancyber i opiekun drużyny phm. Maksymilian Gosztyła HR</p>
+          <p class="text-xs text-gray-600 w-50 mt-2">
+            Drużynowy ćw. Adam Szwancyber i opiekun drużyny phm. Maksymilian Gosztyła HR
+          </p>
         </div>
       </div>
     </div>
